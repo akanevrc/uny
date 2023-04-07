@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:TextField picking-mode="Ignore" tooltip="type rust code here..." multiline="true" name="codePane" style="height: auto; width: auto; left: 0; top: 0; right: 0; bottom: 10%; position: absolute; font-size: 24px;" />
+    <ui:Button text="Compile &amp; Run" display-tooltip-when-elided="true" name="runButton" style="position: absolute; right: 4%; bottom: 2%; height: 6%;" />
+</ui:UXML>
